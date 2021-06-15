@@ -221,7 +221,8 @@ img {
   padding: 0;
   margin-top: 16px;
   height: 34px;
-  width: 180px;
+  width: 280px;
+  line-height: 23px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -1086,7 +1087,7 @@ RESERVATION SECTION
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-bio {
   color: #fff;
   display: inline-block;
-  float: left;
+  /* float: left; */
   margin-top: 5px;
   margin-bottom: 25px;
   position: relative;
@@ -1281,6 +1282,7 @@ RESERVATION SECTION
   float: left;
   padding: 100px 0;
   width: 100%;
+  font-size: 20px;
 }
 
 .mu-contact-area {
@@ -1418,14 +1420,19 @@ RESERVATION SECTION
 #mu-map {
   display: inline;
   float: left;
-  height: 450px;
+  padding-top: 20px;
+  align-items: center;
+  /* height: 450px; */
   width: 100%;
+  
 }
 
-#mu-map iframe {
-  width: 100%;
-  height: 100%;
+.map-img {
+  border-radius: 40%;
+  border: blue;
 }
+
+
 
 /*==================
  FOOTER SECTION
@@ -1435,7 +1442,7 @@ RESERVATION SECTION
   background-color: #444;
   display: inline;
   float: left;
-  padding: 50px 0;
+  padding: 5px 0;
   width: 100%;
 }
 
@@ -1451,7 +1458,7 @@ RESERVATION SECTION
   float: left;
   width: 100%;
   text-align: center;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .mu-footer-social a {
@@ -1480,7 +1487,7 @@ RESERVATION SECTION
 
 .mu-footer-copyright p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 0.5px;
   color: #fff;
 }
@@ -1723,9 +1730,9 @@ RESERVATION SECTION
     padding-top: 30%;
   }
 
-  #mu-map {
+  /* #mu-map {
     height: 350px;
-  }
+  } */
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 10px;
@@ -1793,7 +1800,7 @@ RESERVATION SECTION
   }
 
   #mu-footer .mu-footer-area .mu-footer-social a {
-    font-size: 18px;
+    font-size: 36px;
   }
 
   .mu-menu-item-nav li {
@@ -1816,9 +1823,9 @@ RESERVATION SECTION
     display: inline-block;
   }
 
-  #mu-map {
+  /* #mu-map {
     height: 250px;
-  }
+  } */
 
   .mu-contact-form .mu-send-btn {
     width: 100%;
