@@ -1429,6 +1429,7 @@ RESERVATION SECTION
 .map-img {
   border-radius: 40%;
   border: blue;
+  padding: 20px;
 }
 
 
@@ -1466,11 +1467,11 @@ RESERVATION SECTION
   color: #fff;
   display: inline-block;
   font-size: 50px;
-  height: 94px;
-  line-height: 94px;
+  height: 64px;
+  line-height: 64px;
   margin: 5px;
   text-align: center;
-  width: 94px;
+  width: 64px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -1548,7 +1549,7 @@ RESERVATION SECTION
 
   .mu-main-navbar .mu-main-nav li a {
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 5px; 
     font-size: 14px;
   }
 
