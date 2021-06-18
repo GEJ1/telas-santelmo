@@ -1416,16 +1416,28 @@ RESERVATION SECTION
  MAP SECTION
 ====================*/
 
-#mu-map {
+.mu-map {
   display: inline;
   float: left;
-  padding-top: 20px;
+  padding-top: 40px;
+  /* padding: 100px 0; */
   align-items: center;
-  /* height: 450px; */
+  height: 450px;
   width: 100%;
-  
 }
 
+#mu-h2{
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+#mu-map-iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 
 /*==================
