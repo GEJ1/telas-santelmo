@@ -1426,12 +1426,6 @@ RESERVATION SECTION
   
 }
 
-.map-img {
-  border-radius: 40%;
-  border: blue;
-  padding: 20px;
-}
-
 
 
 /*==================
@@ -1730,9 +1724,9 @@ RESERVATION SECTION
     padding-top: 30%;
   }
 
-  /* #mu-map {
+  #mu-map {
     height: 350px;
-  } */
+  }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 10px;
@@ -1823,9 +1817,9 @@ RESERVATION SECTION
     display: inline-block;
   }
 
-  /* #mu-map {
+  #mu-map {
     height: 250px;
-  } */
+  }
 
   .mu-contact-form .mu-send-btn {
     width: 100%;
