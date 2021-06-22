@@ -137,6 +137,7 @@ jQuery(function($){
 
       // Cache selectors
       var lastId,
+      
       topMenu = $(".mu-main-nav"),
       topMenuHeight = topMenu.outerHeight()+13,
       // All list items
@@ -179,6 +180,7 @@ jQuery(function($){
              menuItems
                .parent().removeClass("active")
                .end().filter("[href=\\#"+id+"]").parent().addClass("active");
+               
          }           
       })
   
